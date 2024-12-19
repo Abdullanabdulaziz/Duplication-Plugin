@@ -1,0 +1,14 @@
+{
+    "name": "wordpress/duplicate-page",
+    "description": "A WordPress plugin to duplicate pages and posts",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "DuplicatePage\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}

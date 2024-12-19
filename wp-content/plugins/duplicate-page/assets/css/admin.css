@@ -1,0 +1,41 @@
+.word-replacements-section {
+    margin: 2em 0;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.word-replacements-section h2 {
+    margin-top: 0;
+}
+
+#word-replacements-container {
+    margin: 1.5em 0;
+}
+
+.word-replacement-pair {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    gap: 10px;
+}
+
+.word-replacement-pair .dashicons-arrow-right-alt {
+    color: #666;
+    margin: 0 5px;
+}
+
+.word-replacement-pair .remove-replacement {
+    padding: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.word-replacement-pair .remove-replacement .dashicons {
+    margin: 3px 0 0 0;
+}
+
+#add-replacement {
+    margin: 1em 0;
+}
